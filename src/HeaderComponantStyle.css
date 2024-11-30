@@ -1,0 +1,9 @@
+.header {
+  background-color: #017575;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  margin: 0;
+}
