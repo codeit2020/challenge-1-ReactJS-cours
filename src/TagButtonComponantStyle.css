@@ -1,9 +1,13 @@
 .Button {
   background-color: #740773;
+  border: none;
   color: white;
-  margin: 5px;
-
-  border-radius: 25px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 button:hover {

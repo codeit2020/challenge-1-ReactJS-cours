@@ -10,6 +10,12 @@ export default function CollectionTagButtonsComponant() {
       <TagButtonComponant />
       <TagButtonComponant />
       <TagButtonComponant />
+      <TagButtonComponant />
+      <TagButtonComponant />
+      <TagButtonComponant />
+      <TagButtonComponant />
+      <TagButtonComponant />
+      <TagButtonComponant />
     </div>
   );
 }
