@@ -1,11 +1,11 @@
 import "./PostComponantStyle.css";
 
-export default function PostComponant() {
+export default function PostComponant(props) {
   return (
     <div className={"Post"}>
-      <h2>This is the post Title</h2>
+      <h2>{props.title || "no title"}</h2>
       <hr />
-      <p className={"h3"}>This the post body</p>
+      <p className={"h3"}>{props.body || "no body"}</p>
     </div>
   );
 }
